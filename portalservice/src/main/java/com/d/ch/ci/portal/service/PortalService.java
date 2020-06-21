@@ -3,10 +3,12 @@ package com.d.ch.ci.portal.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.d.ch.ci.portal.entity.Portal;
 import com.d.ch.ci.portal.repository.PortalRepository;
 
+@Service
 public class PortalService {
 	
 	@Autowired
