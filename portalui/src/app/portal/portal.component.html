@@ -1,0 +1,14 @@
+<table border="1">
+  <thead></thead>
+  <tr>
+    <th>id</th>
+    <th>message</th>
+    </tr>
+  
+  <tbody>
+      <tr *ngFor="let message of portalMessages">
+          <td>{{message.id}}</td>
+          <td>{{message.message}}</td>
+          </tr>
+  </tbody>
+    </table>
